@@ -5,7 +5,7 @@ module.exports.config = {
   'credits': "nazrul",
   usePrefix: true,
   'description': "Happy birthday wish for your friends",
-  'commandCategory': "𝐌𝐫 𝐍𝐀𝐙𝐑𝐔𝐋 💁😘🪽",
+  'commandCategory': "RAJON_420 💁😘🪽",
   'usages': "@tag",
   'dependencies': {
     'axios': '',
