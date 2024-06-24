@@ -6,7 +6,7 @@ credits: "Nazrul",
 usePrefix: false,
 description: "use but can't change credit",
 commandCategory: "fbcover",
-usages: "facebook cover photo make by Nazrul",
+usages: "facebook cover photo make by Rajon",
 cooldowns: 0,
 dependencies: {
     "fs-extra": "",
@@ -15,13 +15,13 @@ dependencies: {
  }
 };
 module.exports.run = async function ({ api, args, event, permssion }) {
-if ((this.config.credits) != "Nazrul") { return api.sendMessage(`[ WARNING ] - Itz Nazrul Don't credits modules ${this.config.name} was changed to ${this.config.credits} bởi ADMINBOT ${global.config.BOTNAME} 😐 Stop now!!!`, event.threadID, event.messageID)}
+if ((this.config.credits) != "Rajon") { return api.sendMessage(`[ WARNING ] - Itz Rajon Don't credits modules ${this.config.name} was changed to ${this.config.credits} bởi ADMINBOT ${global.config.BOTNAME} 😐 RAJON_420!!!`, event.threadID, event.messageID)}
     const request = require('request');
   const fs = require("fs-extra")
   const axios = require("axios")
   const { threadID, messageID, senderID, body } = event;
-  if(!args[0]) return api.sendMessage('আসসালামু আলাইকুম 🥀\n\nBOT NAME: 𝐌𝐫 𝐍𝐀𝐙𝐑𝐔𝐋 💁😘🪽🍁\n\n* অনুগ্রহ করে টাইপ করুন /fbcover তারপর প্রাথমিক নাম লিখুন!!!', threadID, messageID)
-  else return api.sendMessage(`𝗢𝘄𝗻𝗲𝗿 :「 𝙃𝙐𝙎𝙎𝘼𝙄𝙉  」\n\n♻️আপনি আপনার  নাম বাছাই করেছেন: ${args.join(" ").toUpperCase()}\n\n[এই বার্তার উত্তর দিন এবং আপনার দ্বিতীয় নাম নির্বাচন করুন?]`,event.threadID, (err, info) => {
+  if(!args[0]) return api.sendMessage('আসসালামু আলাইকুম 🥀\n\nBOT NAME: RAJON_420 💁😘🪽🍁\n\n* অনুগ্রহ করে টাইপ করুন /fbcover তারপর প্রাথমিক নাম লিখুন!!!', threadID, messageID)
+  else return api.sendMessage(`𝗢𝘄𝗻𝗲𝗿 :「 RAJON  」\n\n♻️আপনি আপনার  নাম বাছাই করেছেন: ${args.join(" ").toUpperCase()}\n\n[এই বার্তার উত্তর দিন এবং আপনার দ্বিতীয় নাম নির্বাচন করুন?]`,event.threadID, (err, info) => {
      return global.client.handleReply.push({
         type: "tenphu",
         name: `fbcover`,
