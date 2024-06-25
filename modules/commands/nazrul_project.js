@@ -2,7 +2,7 @@ module.exports.config = {
   name: "🖤",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "nazrul project",
+  credits: "𝐑𝐚𝐣𝐨𝐧 project",
   usePrefix: true,
   description: "sand best islamick Video",
   commandCategory: "noprefix",
